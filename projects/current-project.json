@@ -740,7 +740,7 @@
     },
     {
       "selectors": [
-        "#i88r"
+        "#il91"
       ],
       "style": {
         "padding": "10px"
@@ -762,6 +762,9 @@
               "background-position",
               "background-size"
             ],
+            "attributes": {
+              "id": "ilbt"
+            },
             "components": [
               {
                 "name": "Row",
@@ -783,7 +786,7 @@
                   }
                 ],
                 "attributes": {
-                  "id": "isri"
+                  "id": "i21v"
                 },
                 "components": [
                   {
@@ -807,16 +810,18 @@
                         "name": "gjs-cell",
                         "private": 1
                       }
+                    ],
+                    "components": [
+                      {
+                        "type": "text",
+                        "content": "Insert your text here",
+                        "attributes": {
+                          "id": "il91"
+                        }
+                      }
                     ]
                   }
                 ]
-              },
-              {
-                "type": "text",
-                "content": "Insert your text here",
-                "attributes": {
-                  "id": "i88r"
-                }
               }
             ],
             "head": {
@@ -826,11 +831,11 @@
               "tagName": "html"
             }
           },
-          "id": "Zqsnq922aMYCwTWJ"
+          "id": "rcQZ6tQ8IndAna1p"
         }
       ],
       "type": "main",
-      "id": "OMpJoN8fpoN0Tf2C"
+      "id": "BvTkVoULjE3BQb1l"
     }
   ],
   "symbols": []
