@@ -740,7 +740,7 @@
     },
     {
       "selectors": [
-        "#i1wi"
+        "#ih4v"
       ],
       "style": {
         "padding": "10px"
@@ -748,7 +748,7 @@
     },
     {
       "selectors": [
-        "#isha"
+        "#ij6i"
       ],
       "style": {
         "padding": "10px"
@@ -770,9 +770,6 @@
               "background-position",
               "background-size"
             ],
-            "attributes": {
-              "id": "io24"
-            },
             "components": [
               {
                 "name": "Row",
@@ -794,7 +791,7 @@
                   }
                 ],
                 "attributes": {
-                  "id": "iya6"
+                  "id": "i72d"
                 },
                 "components": [
                   {
@@ -818,7 +815,10 @@
                         "name": "gjs-cell",
                         "private": 1
                       }
-                    ]
+                    ],
+                    "attributes": {
+                      "id": "i2q9"
+                    }
                   }
                 ]
               },
@@ -826,14 +826,14 @@
                 "type": "text",
                 "content": "Insert your text here",
                 "attributes": {
-                  "id": "i1wi"
+                  "id": "ij6i"
                 }
               },
               {
                 "type": "text",
                 "content": "Insert your text here",
                 "attributes": {
-                  "id": "isha"
+                  "id": "ih4v"
                 }
               }
             ],
@@ -844,11 +844,11 @@
               "tagName": "html"
             }
           },
-          "id": "pGV8qPmrHlMJwM6x"
+          "id": "a4vRE0PFOT9FZE2a"
         }
       ],
       "type": "main",
-      "id": "jHGFmNZ9Wu0Ugseo"
+      "id": "IT4IMPEKqQkRZAuT"
     }
   ],
   "symbols": []
