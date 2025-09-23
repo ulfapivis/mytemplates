@@ -675,72 +675,7 @@
     },
     {
       "selectors": [
-        {
-          "name": "gjs-row",
-          "private": 1
-        }
-      ],
-      "style": {
-        "display": "table",
-        "padding-top": "10px",
-        "padding-right": "10px",
-        "padding-bottom": "10px",
-        "padding-left": "10px",
-        "width": "100%"
-      }
-    },
-    {
-      "selectors": [
-        {
-          "name": "gjs-cell",
-          "private": 1
-        }
-      ],
-      "style": {
-        "width": "100%",
-        "display": "block"
-      },
-      "mediaText": "(max-width: 768px)",
-      "atRuleType": "media"
-    },
-    {
-      "selectors": [
-        "gjs-cell30"
-      ],
-      "style": {
-        "width": "100%",
-        "display": "block"
-      },
-      "mediaText": "(max-width: 768px)",
-      "atRuleType": "media"
-    },
-    {
-      "selectors": [
-        "gjs-cell70"
-      ],
-      "style": {
-        "width": "100%",
-        "display": "block"
-      },
-      "mediaText": "(max-width: 768px)",
-      "atRuleType": "media"
-    },
-    {
-      "selectors": [
-        {
-          "name": "gjs-cell",
-          "private": 1
-        }
-      ],
-      "style": {
-        "width": "8%",
-        "display": "table-cell",
-        "height": "75px"
-      }
-    },
-    {
-      "selectors": [
-        "#irna"
+        "#i8hh"
       ],
       "style": {
         "padding": "10px"
@@ -748,7 +683,7 @@
     },
     {
       "selectors": [
-        "#i1nyo"
+        "#igei"
       ],
       "style": {
         "padding": "10px"
@@ -771,61 +706,13 @@
               "background-size"
             ],
             "attributes": {
-              "id": "ilb7"
+              "id": "ie9b"
             },
             "components": [
               {
-                "name": "Row",
-                "droppable": ".gjs-cell",
-                "resizable": {
-                  "tl": 0,
-                  "tc": 0,
-                  "tr": 0,
-                  "cl": 0,
-                  "cr": 0,
-                  "bl": 0,
-                  "br": 0,
-                  "minDim": 1
-                },
-                "classes": [
-                  {
-                    "name": "gjs-row",
-                    "private": 1
-                  }
-                ],
-                "attributes": {
-                  "id": "iz7l"
-                },
-                "components": [
-                  {
-                    "name": "Cell",
-                    "draggable": ".gjs-row",
-                    "resizable": {
-                      "tl": 0,
-                      "tc": 0,
-                      "tr": 0,
-                      "cl": 0,
-                      "cr": 1,
-                      "bl": 0,
-                      "br": 0,
-                      "minDim": 1,
-                      "bc": 0,
-                      "currentUnit": 1,
-                      "step": 0.2
-                    },
-                    "classes": [
-                      {
-                        "name": "gjs-cell",
-                        "private": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "type": "text",
                 "attributes": {
-                  "id": "irna"
+                  "id": "i8hh"
                 },
                 "components": [
                   {
@@ -842,14 +729,14 @@
               "tagName": "html"
             }
           },
-          "id": "cdNpFrI3AUglndNq"
+          "id": "k3jFCuDVppq48RDM"
         }
       ],
       "type": "main",
-      "id": "CuxHa2LPQvtB8ec1"
+      "id": "4Oc2H1fG3iz3960C"
     },
     {
-      "name": "Page2",
+      "name": "Sida2",
       "frames": [
         {
           "component": {
@@ -864,18 +751,18 @@
               "background-size"
             ],
             "attributes": {
-              "id": "ie5x"
+              "id": "iyxl"
             },
             "components": [
               {
                 "type": "text",
                 "attributes": {
-                  "id": "i1nyo"
+                  "id": "igei"
                 },
                 "components": [
                   {
                     "type": "textnode",
-                    "content": "sida2"
+                    "content": "sida-2"
                   }
                 ]
               }
@@ -887,11 +774,11 @@
               "tagName": "html"
             }
           },
-          "id": "hpfyMs6YRVkDi9JQ"
+          "id": "KKZcnbFxJss6naO4"
         }
       ],
-      "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page2</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
-      "id": "lowj52bGrBE1hpJuc"
+      "components": "<div style=\"text-align:center;padding:50px;\"><h1>Sida2</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
+      "id": "Xf0jy58d9zpmWKr0w"
     }
   ],
   "symbols": []
