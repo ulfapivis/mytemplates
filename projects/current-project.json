@@ -675,7 +675,7 @@
     },
     {
       "selectors": [
-        "#ihpy"
+        "#iqfb"
       ],
       "style": {
         "padding": "10px"
@@ -683,7 +683,7 @@
     },
     {
       "selectors": [
-        "#i5qf"
+        "#ist3"
       ],
       "style": {
         "padding": "10px"
@@ -694,91 +694,23 @@
     {
       "frames": [
         {
-          "component": {
-            "type": "wrapper",
-            "stylable": [
-              "background",
-              "background-color",
-              "background-image",
-              "background-repeat",
-              "background-attachment",
-              "background-position",
-              "background-size"
-            ],
-            "attributes": {
-              "id": "ifsn"
-            },
-            "components": [
-              {
-                "type": "text",
-                "attributes": {
-                  "id": "ihpy"
-                },
-                "components": [
-                  {
-                    "type": "textnode",
-                    "content": "yes"
-                  }
-                ]
-              }
-            ],
-            "head": {
-              "type": "head"
-            },
-            "docEl": {
-              "tagName": "html"
-            }
-          },
-          "id": "dfXneOrmfhSbpGbj"
+          "component": "<body id=\"iwmf\"><div id=\"iqfb\">this is the first page</div></body>",
+          "id": "Txk7F1aiiipRVlTP"
         }
       ],
       "type": "main",
-      "id": "atGUfDpPbKx9e4Ow"
+      "id": "uDO888d5xprmIn9r"
     },
     {
-      "name": "Page22",
+      "name": "Page2",
       "frames": [
         {
-          "component": {
-            "type": "wrapper",
-            "stylable": [
-              "background",
-              "background-color",
-              "background-image",
-              "background-repeat",
-              "background-attachment",
-              "background-position",
-              "background-size"
-            ],
-            "attributes": {
-              "id": "iqoi"
-            },
-            "components": [
-              {
-                "type": "text",
-                "attributes": {
-                  "id": "i5qf"
-                },
-                "components": [
-                  {
-                    "type": "textnode",
-                    "content": "Yowsa"
-                  }
-                ]
-              }
-            ],
-            "head": {
-              "type": "head"
-            },
-            "docEl": {
-              "tagName": "html"
-            }
-          },
-          "id": "HZsCmfJKm4TrQdfT"
+          "component": "<body id=\"izxe\"><div id=\"ist3\">second page</div></body>",
+          "id": "qq98AOR3HONEee12"
         }
       ],
-      "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page22</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
-      "id": "aFTxdv49QaUdD1pe4"
+      "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page2</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
+      "id": "7bc98nU5aQLbtKpXA"
     }
   ],
   "symbols": []
