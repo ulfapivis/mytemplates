@@ -762,14 +762,6 @@
       "style": {
         "color": "black"
       }
-    },
-    {
-      "selectors": [
-        "#i8b7a"
-      ],
-      "style": {
-        "height": "350px"
-      }
     }
   ],
   "pages": [
@@ -890,15 +882,98 @@
             },
             "components": [
               {
-                "type": "map",
+                "name": "Row",
+                "droppable": ".gjs-cell",
                 "resizable": {
-                  "ratioDefault": 1
+                  "tl": 0,
+                  "tc": 0,
+                  "tr": 0,
+                  "cl": 0,
+                  "cr": 0,
+                  "bl": 0,
+                  "br": 0,
+                  "minDim": 1
                 },
+                "classes": [
+                  {
+                    "name": "gjs-row",
+                    "private": 1
+                  }
+                ],
                 "attributes": {
-                  "frameborder": 0,
-                  "id": "i8b7a"
+                  "id": "it4pi"
                 },
-                "src": "https://maps.google.com/maps?&z=1&t=q&output=embed"
+                "components": [
+                  {
+                    "name": "Cell",
+                    "draggable": ".gjs-row",
+                    "resizable": {
+                      "tl": 0,
+                      "tc": 0,
+                      "tr": 0,
+                      "cl": 0,
+                      "cr": 1,
+                      "bl": 0,
+                      "br": 0,
+                      "minDim": 1,
+                      "bc": 0,
+                      "currentUnit": 1,
+                      "step": 0.2
+                    },
+                    "classes": [
+                      {
+                        "name": "gjs-cell",
+                        "private": 1
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Cell",
+                    "draggable": ".gjs-row",
+                    "resizable": {
+                      "tl": 0,
+                      "tc": 0,
+                      "tr": 0,
+                      "cl": 0,
+                      "cr": 1,
+                      "bl": 0,
+                      "br": 0,
+                      "minDim": 1,
+                      "bc": 0,
+                      "currentUnit": 1,
+                      "step": 0.2
+                    },
+                    "classes": [
+                      {
+                        "name": "gjs-cell",
+                        "private": 1
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Cell",
+                    "draggable": ".gjs-row",
+                    "resizable": {
+                      "tl": 0,
+                      "tc": 0,
+                      "tr": 0,
+                      "cl": 0,
+                      "cr": 1,
+                      "bl": 0,
+                      "br": 0,
+                      "minDim": 1,
+                      "bc": 0,
+                      "currentUnit": 1,
+                      "step": 0.2
+                    },
+                    "classes": [
+                      {
+                        "name": "gjs-cell",
+                        "private": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "head": {
