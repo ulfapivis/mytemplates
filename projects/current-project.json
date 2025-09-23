@@ -675,7 +675,7 @@
     },
     {
       "selectors": [
-        "#i8hh"
+        "#ihpy"
       ],
       "style": {
         "padding": "10px"
@@ -683,7 +683,7 @@
     },
     {
       "selectors": [
-        "#igei"
+        "#i5qf"
       ],
       "style": {
         "padding": "10px"
@@ -706,18 +706,18 @@
               "background-size"
             ],
             "attributes": {
-              "id": "ie9b"
+              "id": "ifsn"
             },
             "components": [
               {
                 "type": "text",
                 "attributes": {
-                  "id": "i8hh"
+                  "id": "ihpy"
                 },
                 "components": [
                   {
                     "type": "textnode",
-                    "content": "sida1"
+                    "content": "yes"
                   }
                 ]
               }
@@ -729,14 +729,14 @@
               "tagName": "html"
             }
           },
-          "id": "k3jFCuDVppq48RDM"
+          "id": "dfXneOrmfhSbpGbj"
         }
       ],
       "type": "main",
-      "id": "4Oc2H1fG3iz3960C"
+      "id": "atGUfDpPbKx9e4Ow"
     },
     {
-      "name": "Sida2",
+      "name": "Page22",
       "frames": [
         {
           "component": {
@@ -751,18 +751,18 @@
               "background-size"
             ],
             "attributes": {
-              "id": "iyxl"
+              "id": "iqoi"
             },
             "components": [
               {
                 "type": "text",
                 "attributes": {
-                  "id": "igei"
+                  "id": "i5qf"
                 },
                 "components": [
                   {
                     "type": "textnode",
-                    "content": "sida-2"
+                    "content": "Yowsa"
                   }
                 ]
               }
@@ -774,11 +774,11 @@
               "tagName": "html"
             }
           },
-          "id": "KKZcnbFxJss6naO4"
+          "id": "HZsCmfJKm4TrQdfT"
         }
       ],
-      "components": "<div style=\"text-align:center;padding:50px;\"><h1>Sida2</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
-      "id": "Xf0jy58d9zpmWKr0w"
+      "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page22</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
+      "id": "aFTxdv49QaUdD1pe4"
     }
   ],
   "symbols": []
