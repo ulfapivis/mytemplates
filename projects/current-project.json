@@ -675,7 +675,7 @@
     },
     {
       "selectors": [
-        "#i9tw"
+        "#ihtl"
       ],
       "style": {
         "padding": "10px"
@@ -683,7 +683,23 @@
     },
     {
       "selectors": [
-        "#ielw"
+        "#i1f6n"
+      ],
+      "style": {
+        "padding": "10px"
+      }
+    },
+    {
+      "selectors": [
+        "#ijo3f"
+      ],
+      "style": {
+        "padding": "10px"
+      }
+    },
+    {
+      "selectors": [
+        "#iz62b"
       ],
       "style": {
         "padding": "10px"
@@ -694,23 +710,34 @@
     {
       "frames": [
         {
-          "component": "<body><div id=\"i9tw\">Insert your text here</div></body>",
-          "id": "2hbQcfIobZG8UAkQ"
+          "component": "<body><div id=\"ijo3f\">Insert your text here</div><div id=\"iz62b\">Insert your text here</div></body>",
+          "id": "WDa4BVIytk3hYmNh"
         }
       ],
       "type": "main",
-      "id": "6giedJQ5CSui0Lqe"
+      "id": "ftMsiGneLLRDjuKU"
     },
     {
       "name": "Page 2",
       "frames": [
         {
-          "component": "<body id=\"iuft\"><div id=\"ielw\">Insert your text here</div></body>",
-          "id": "HO5Twwg0Ip4zXnPx"
+          "component": "<body><div id=\"i1f6n\">Insert your text here</div></body>",
+          "id": "ARIc9URXvW9rFCi2"
         }
       ],
       "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page 2</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
-      "id": "4GV0I03AQR2XZHW5k"
+      "id": "yLtXXXy8yyLycS8O9"
+    },
+    {
+      "name": "Page 3",
+      "frames": [
+        {
+          "component": "<body><div id=\"ihtl\">Insert your text here</div></body>",
+          "id": "T1OktYPjcxMiGcQD"
+        }
+      ],
+      "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page 3</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
+      "id": "Pop9m26u5gyuBCSUNr"
     }
   ],
   "symbols": []
