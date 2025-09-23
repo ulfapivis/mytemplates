@@ -675,7 +675,7 @@
     },
     {
       "selectors": [
-        "#iqfb"
+        "#irbz"
       ],
       "style": {
         "padding": "10px"
@@ -683,7 +683,7 @@
     },
     {
       "selectors": [
-        "#ist3"
+        "#iynk"
       ],
       "style": {
         "padding": "10px"
@@ -694,23 +694,23 @@
     {
       "frames": [
         {
-          "component": "<body id=\"iwmf\"><div id=\"iqfb\">this is the first page</div></body>",
-          "id": "Txk7F1aiiipRVlTP"
+          "component": "<body><div id=\"irbz\">text1</div></body>",
+          "id": "enHQe3Aecd7qeZnr"
         }
       ],
       "type": "main",
-      "id": "uDO888d5xprmIn9r"
+      "id": "bHa3Uv6CYl9ACoi0"
     },
     {
-      "name": "Page2",
+      "name": "Page 2",
       "frames": [
         {
-          "component": "<body id=\"izxe\"><div id=\"ist3\">second page</div></body>",
-          "id": "qq98AOR3HONEee12"
+          "component": "<body id=\"iwod\"><div id=\"iynk\">text2</div></body>",
+          "id": "Kbp1CAM89cAVKt1w"
         }
       ],
-      "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page2</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
-      "id": "7bc98nU5aQLbtKpXA"
+      "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page 2</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
+      "id": "kE0VBQUoNffhEu7ao"
     }
   ],
   "symbols": []
