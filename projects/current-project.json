@@ -672,87 +672,6 @@
         "border-left-color": "rgb(33, 150, 243)",
         "font-size": "13px"
       }
-    },
-    {
-      "selectors": [
-        {
-          "name": "gjs-row",
-          "private": 1
-        }
-      ],
-      "style": {
-        "display": "table",
-        "padding-top": "10px",
-        "padding-right": "10px",
-        "padding-bottom": "10px",
-        "padding-left": "10px",
-        "width": "100%"
-      }
-    },
-    {
-      "selectors": [
-        {
-          "name": "gjs-cell",
-          "private": 1
-        }
-      ],
-      "style": {
-        "width": "100%",
-        "display": "block"
-      },
-      "mediaText": "(max-width: 768px)",
-      "atRuleType": "media"
-    },
-    {
-      "selectors": [
-        "gjs-cell30"
-      ],
-      "style": {
-        "width": "100%",
-        "display": "block"
-      },
-      "mediaText": "(max-width: 768px)",
-      "atRuleType": "media"
-    },
-    {
-      "selectors": [
-        "gjs-cell70"
-      ],
-      "style": {
-        "width": "100%",
-        "display": "block"
-      },
-      "mediaText": "(max-width: 768px)",
-      "atRuleType": "media"
-    },
-    {
-      "selectors": [
-        {
-          "name": "gjs-cell",
-          "private": 1
-        }
-      ],
-      "style": {
-        "width": "8%",
-        "display": "table-cell",
-        "height": "75px"
-      }
-    },
-    {
-      "selectors": [
-        "#i3lh"
-      ],
-      "style": {
-        "padding": "10px"
-      }
-    },
-    {
-      "selectors": [
-        "#impzy"
-      ],
-      "style": {
-        "padding": "10px"
-      }
     }
   ],
   "pages": [
@@ -770,68 +689,6 @@
               "background-position",
               "background-size"
             ],
-            "components": [
-              {
-                "name": "Row",
-                "droppable": ".gjs-cell",
-                "resizable": {
-                  "tl": 0,
-                  "tc": 0,
-                  "tr": 0,
-                  "cl": 0,
-                  "cr": 0,
-                  "bl": 0,
-                  "br": 0,
-                  "minDim": 1
-                },
-                "classes": [
-                  {
-                    "name": "gjs-row",
-                    "private": 1
-                  }
-                ],
-                "attributes": {
-                  "id": "ilsf"
-                },
-                "components": [
-                  {
-                    "name": "Cell",
-                    "draggable": ".gjs-row",
-                    "resizable": {
-                      "tl": 0,
-                      "tc": 0,
-                      "tr": 0,
-                      "cl": 0,
-                      "cr": 1,
-                      "bl": 0,
-                      "br": 0,
-                      "minDim": 1,
-                      "bc": 0,
-                      "currentUnit": 1,
-                      "step": 0.2
-                    },
-                    "classes": [
-                      {
-                        "name": "gjs-cell",
-                        "private": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "attributes": {
-                  "id": "i3lh"
-                },
-                "components": [
-                  {
-                    "type": "textnode",
-                    "content": "page1"
-                  }
-                ]
-              }
-            ],
             "head": {
               "type": "head"
             },
@@ -839,56 +696,11 @@
               "tagName": "html"
             }
           },
-          "id": "5ctpvEO4Wb2Bfh5Q"
+          "id": "xgZ84cUumrJzqJDo"
         }
       ],
       "type": "main",
-      "id": "8iAsmuzcQiQcC1gY"
-    },
-    {
-      "name": "Page 2",
-      "frames": [
-        {
-          "component": {
-            "type": "wrapper",
-            "stylable": [
-              "background",
-              "background-color",
-              "background-image",
-              "background-repeat",
-              "background-attachment",
-              "background-position",
-              "background-size"
-            ],
-            "attributes": {
-              "id": "i9bu"
-            },
-            "components": [
-              {
-                "type": "text",
-                "attributes": {
-                  "id": "impzy"
-                },
-                "components": [
-                  {
-                    "type": "textnode",
-                    "content": "page2"
-                  }
-                ]
-              }
-            ],
-            "head": {
-              "type": "head"
-            },
-            "docEl": {
-              "tagName": "html"
-            }
-          },
-          "id": "1Tvm7Ef92aixtndM"
-        }
-      ],
-      "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page 2</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
-      "id": "w6mnxjOZ2t9ktWR1D"
+      "id": "iJbHaNZBiAsCLnPO"
     }
   ],
   "symbols": []
