@@ -675,18 +675,83 @@
     },
     {
       "selectors": [
-        "#i8nf"
+        {
+          "name": "gjs-row",
+          "private": 1
+        }
       ],
       "style": {
-        "height": "350px"
+        "display": "table",
+        "padding-top": "10px",
+        "padding-right": "10px",
+        "padding-bottom": "10px",
+        "padding-left": "10px",
+        "width": "100%"
       }
     },
     {
       "selectors": [
-        "#i6b8"
+        {
+          "name": "gjs-cell",
+          "private": 1
+        }
       ],
       "style": {
-        "height": "350px"
+        "width": "100%",
+        "display": "block"
+      },
+      "mediaText": "(max-width: 768px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": [
+        "gjs-cell30"
+      ],
+      "style": {
+        "width": "100%",
+        "display": "block"
+      },
+      "mediaText": "(max-width: 768px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": [
+        "gjs-cell70"
+      ],
+      "style": {
+        "width": "100%",
+        "display": "block"
+      },
+      "mediaText": "(max-width: 768px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": [
+        {
+          "name": "gjs-cell",
+          "private": 1
+        }
+      ],
+      "style": {
+        "width": "8%",
+        "display": "table-cell",
+        "height": "75px"
+      }
+    },
+    {
+      "selectors": [
+        "#i3lh"
+      ],
+      "style": {
+        "padding": "10px"
+      }
+    },
+    {
+      "selectors": [
+        "#impzy"
+      ],
+      "style": {
+        "padding": "10px"
       }
     }
   ],
@@ -707,15 +772,64 @@
             ],
             "components": [
               {
-                "type": "map",
+                "name": "Row",
+                "droppable": ".gjs-cell",
                 "resizable": {
-                  "ratioDefault": 1
+                  "tl": 0,
+                  "tc": 0,
+                  "tr": 0,
+                  "cl": 0,
+                  "cr": 0,
+                  "bl": 0,
+                  "br": 0,
+                  "minDim": 1
                 },
+                "classes": [
+                  {
+                    "name": "gjs-row",
+                    "private": 1
+                  }
+                ],
                 "attributes": {
-                  "frameborder": 0,
-                  "id": "i8nf"
+                  "id": "ilsf"
                 },
-                "src": "https://maps.google.com/maps?&z=1&t=q&output=embed"
+                "components": [
+                  {
+                    "name": "Cell",
+                    "draggable": ".gjs-row",
+                    "resizable": {
+                      "tl": 0,
+                      "tc": 0,
+                      "tr": 0,
+                      "cl": 0,
+                      "cr": 1,
+                      "bl": 0,
+                      "br": 0,
+                      "minDim": 1,
+                      "bc": 0,
+                      "currentUnit": 1,
+                      "step": 0.2
+                    },
+                    "classes": [
+                      {
+                        "name": "gjs-cell",
+                        "private": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "attributes": {
+                  "id": "i3lh"
+                },
+                "components": [
+                  {
+                    "type": "textnode",
+                    "content": "page1"
+                  }
+                ]
               }
             ],
             "head": {
@@ -725,11 +839,11 @@
               "tagName": "html"
             }
           },
-          "id": "CvnKBhUjMu7ZaCb1"
+          "id": "5ctpvEO4Wb2Bfh5Q"
         }
       ],
       "type": "main",
-      "id": "cDAdMxFSctlNlPsW"
+      "id": "8iAsmuzcQiQcC1gY"
     },
     {
       "name": "Page 2",
@@ -746,17 +860,21 @@
               "background-position",
               "background-size"
             ],
+            "attributes": {
+              "id": "i9bu"
+            },
             "components": [
               {
-                "type": "map",
-                "resizable": {
-                  "ratioDefault": 1
-                },
+                "type": "text",
                 "attributes": {
-                  "frameborder": 0,
-                  "id": "i6b8"
+                  "id": "impzy"
                 },
-                "src": "https://maps.google.com/maps?&z=1&t=q&output=embed"
+                "components": [
+                  {
+                    "type": "textnode",
+                    "content": "page2"
+                  }
+                ]
               }
             ],
             "head": {
@@ -766,11 +884,11 @@
               "tagName": "html"
             }
           },
-          "id": "4oZdgmmvPjZ2BIQC"
+          "id": "1Tvm7Ef92aixtndM"
         }
       ],
       "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page 2</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
-      "id": "oJIH3w3tQnyqomL2J"
+      "id": "w6mnxjOZ2t9ktWR1D"
     }
   ],
   "symbols": []
