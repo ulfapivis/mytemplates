@@ -675,80 +675,7 @@
     },
     {
       "selectors": [
-        {
-          "name": "gjs-row",
-          "private": 1
-        }
-      ],
-      "style": {
-        "display": "table",
-        "padding-top": "10px",
-        "padding-right": "10px",
-        "padding-bottom": "10px",
-        "padding-left": "10px",
-        "width": "100%"
-      }
-    },
-    {
-      "selectors": [
-        {
-          "name": "gjs-cell",
-          "private": 1
-        }
-      ],
-      "style": {
-        "width": "100%",
-        "display": "block"
-      },
-      "mediaText": "(max-width: 768px)",
-      "atRuleType": "media"
-    },
-    {
-      "selectors": [
-        "gjs-cell30"
-      ],
-      "style": {
-        "width": "100%",
-        "display": "block"
-      },
-      "mediaText": "(max-width: 768px)",
-      "atRuleType": "media"
-    },
-    {
-      "selectors": [
-        "gjs-cell70"
-      ],
-      "style": {
-        "width": "100%",
-        "display": "block"
-      },
-      "mediaText": "(max-width: 768px)",
-      "atRuleType": "media"
-    },
-    {
-      "selectors": [
-        {
-          "name": "gjs-cell",
-          "private": 1
-        }
-      ],
-      "style": {
-        "width": "8%",
-        "display": "table-cell",
-        "height": "75px"
-      }
-    },
-    {
-      "selectors": [
-        "#i1db"
-      ],
-      "style": {
-        "padding": "10px"
-      }
-    },
-    {
-      "selectors": [
-        "#invi"
+        "#i8nf"
       ],
       "style": {
         "height": "350px"
@@ -756,7 +683,7 @@
     },
     {
       "selectors": [
-        "#ikty2"
+        "#i6b8"
       ],
       "style": {
         "height": "350px"
@@ -780,68 +707,13 @@
             ],
             "components": [
               {
-                "name": "Row",
-                "droppable": ".gjs-cell",
-                "resizable": {
-                  "tl": 0,
-                  "tc": 0,
-                  "tr": 0,
-                  "cl": 0,
-                  "cr": 0,
-                  "bl": 0,
-                  "br": 0,
-                  "minDim": 1
-                },
-                "classes": [
-                  {
-                    "name": "gjs-row",
-                    "private": 1
-                  }
-                ],
-                "attributes": {
-                  "id": "ir9u"
-                },
-                "components": [
-                  {
-                    "name": "Cell",
-                    "draggable": ".gjs-row",
-                    "resizable": {
-                      "tl": 0,
-                      "tc": 0,
-                      "tr": 0,
-                      "cl": 0,
-                      "cr": 1,
-                      "bl": 0,
-                      "br": 0,
-                      "minDim": 1,
-                      "bc": 0,
-                      "currentUnit": 1,
-                      "step": 0.2
-                    },
-                    "classes": [
-                      {
-                        "name": "gjs-cell",
-                        "private": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "content": "Insert your text here",
-                "attributes": {
-                  "id": "i1db"
-                }
-              },
-              {
                 "type": "map",
                 "resizable": {
                   "ratioDefault": 1
                 },
                 "attributes": {
                   "frameborder": 0,
-                  "id": "invi"
+                  "id": "i8nf"
                 },
                 "src": "https://maps.google.com/maps?&z=1&t=q&output=embed"
               }
@@ -853,11 +725,11 @@
               "tagName": "html"
             }
           },
-          "id": "eomDfrO5cxwvZH4x"
+          "id": "CvnKBhUjMu7ZaCb1"
         }
       ],
       "type": "main",
-      "id": "tFuUFTchcjfmmg2Q"
+      "id": "cDAdMxFSctlNlPsW"
     },
     {
       "name": "Page 2",
@@ -882,7 +754,7 @@
                 },
                 "attributes": {
                   "frameborder": 0,
-                  "id": "ikty2"
+                  "id": "i6b8"
                 },
                 "src": "https://maps.google.com/maps?&z=1&t=q&output=embed"
               }
@@ -894,11 +766,11 @@
               "tagName": "html"
             }
           },
-          "id": "Yr5NVNStKLidVAj6"
+          "id": "4oZdgmmvPjZ2BIQC"
         }
       ],
       "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page 2</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
-      "id": "yjE15ndzU3UqVnr9j"
+      "id": "oJIH3w3tQnyqomL2J"
     }
   ],
   "symbols": []
