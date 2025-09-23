@@ -688,6 +688,14 @@
       "style": {
         "height": "350px"
       }
+    },
+    {
+      "selectors": [
+        "#i5ddn"
+      ],
+      "style": {
+        "padding": "10px"
+      }
     }
   ],
   "pages": [
@@ -700,6 +708,17 @@
       ],
       "type": "main",
       "id": "SsmNJNTGKnXGMMUx"
+    },
+    {
+      "name": "Page 2",
+      "frames": [
+        {
+          "component": "<div id=\"i5ddn\">Insert your text here</div>",
+          "id": "GSzOgLQwQ4VH7b79"
+        }
+      ],
+      "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page 2</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
+      "id": "U6ceC7tp3lm2jpmBt"
     }
   ],
   "symbols": []
