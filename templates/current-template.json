@@ -737,6 +737,22 @@
         "display": "table-cell",
         "height": "75px"
       }
+    },
+    {
+      "selectors": [
+        "#i1db"
+      ],
+      "style": {
+        "padding": "10px"
+      }
+    },
+    {
+      "selectors": [
+        "#iomdk"
+      ],
+      "style": {
+        "padding": "10px"
+      }
     }
   ],
   "pages": [
@@ -775,7 +791,7 @@
                   }
                 ],
                 "attributes": {
-                  "id": "i9xm"
+                  "id": "ir9u"
                 },
                 "components": [
                   {
@@ -802,6 +818,13 @@
                     ]
                   }
                 ]
+              },
+              {
+                "type": "text",
+                "content": "Insert your text here",
+                "attributes": {
+                  "id": "i1db"
+                }
               }
             ],
             "head": {
@@ -811,11 +834,102 @@
               "tagName": "html"
             }
           },
-          "id": "AraYbpi8XYVltXDc"
+          "id": "eomDfrO5cxwvZH4x"
         }
       ],
       "type": "main",
-      "id": "qxvgcA9O7Asy62GF"
+      "id": "tFuUFTchcjfmmg2Q"
+    },
+    {
+      "name": "Page 2",
+      "frames": [
+        {
+          "component": {
+            "type": "wrapper",
+            "stylable": [
+              "background",
+              "background-color",
+              "background-image",
+              "background-repeat",
+              "background-attachment",
+              "background-position",
+              "background-size"
+            ],
+            "attributes": {
+              "id": "ic5j"
+            },
+            "components": [
+              {
+                "name": "Row",
+                "droppable": ".gjs-cell",
+                "resizable": {
+                  "tl": 0,
+                  "tc": 0,
+                  "tr": 0,
+                  "cl": 0,
+                  "cr": 0,
+                  "bl": 0,
+                  "br": 0,
+                  "minDim": 1
+                },
+                "classes": [
+                  {
+                    "name": "gjs-row",
+                    "private": 1
+                  }
+                ],
+                "attributes": {
+                  "id": "i3px9"
+                },
+                "components": [
+                  {
+                    "name": "Cell",
+                    "draggable": ".gjs-row",
+                    "resizable": {
+                      "tl": 0,
+                      "tc": 0,
+                      "tr": 0,
+                      "cl": 0,
+                      "cr": 1,
+                      "bl": 0,
+                      "br": 0,
+                      "minDim": 1,
+                      "bc": 0,
+                      "currentUnit": 1,
+                      "step": 0.2
+                    },
+                    "classes": [
+                      {
+                        "name": "gjs-cell",
+                        "private": 1
+                      }
+                    ],
+                    "attributes": {
+                      "id": "i1cng"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "content": "Insert your text here",
+                "attributes": {
+                  "id": "iomdk"
+                }
+              }
+            ],
+            "head": {
+              "type": "head"
+            },
+            "docEl": {
+              "tagName": "html"
+            }
+          },
+          "id": "efYhoUqvI0NPJPig"
+        }
+      ],
+      "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page 2</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
+      "id": "kFaaeAp26I8EDqchV"
     }
   ],
   "symbols": []
