@@ -675,15 +675,15 @@
     },
     {
       "selectors": [
-        "#irbz"
+        "#ithk"
       ],
       "style": {
-        "padding": "10px"
+        "height": "350px"
       }
     },
     {
       "selectors": [
-        "#iynk"
+        "#i49d"
       ],
       "style": {
         "padding": "10px"
@@ -692,25 +692,26 @@
   ],
   "pages": [
     {
+      "name": "Page 1",
       "frames": [
         {
-          "component": "<body><div id=\"irbz\">text1</div></body>",
-          "id": "enHQe3Aecd7qeZnr"
+          "component": "<body id=\"i0ek\"><div id=\"i49d\">finns det kvar sen?</div></body>",
+          "id": "hHEpnIijA48lP6fX"
         }
       ],
-      "type": "main",
-      "id": "bHa3Uv6CYl9ACoi0"
+      "id": "bHa3Uv6CYl9ACoi0",
+      "components": "<body><div id=\"irbz\">text1</div></body>"
     },
     {
       "name": "Page 2",
       "frames": [
         {
-          "component": "<body id=\"iwod\"><div id=\"iynk\">text2</div></body>",
-          "id": "Kbp1CAM89cAVKt1w"
+          "component": "<body><iframe frameborder=\"0\" id=\"ithk\" src=\"https://maps.google.com/maps?&amp;z=1&amp;t=q&amp;output=embed\"></iframe></body>",
+          "id": "AvV2yA2hYjGQ03UE"
         }
       ],
-      "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page 2</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
-      "id": "kE0VBQUoNffhEu7ao"
+      "id": "kE0VBQUoNffhEu7ao",
+      "components": "<body id=\"iwod\"><div id=\"iynk\">text2</div></body>"
     }
   ],
   "symbols": []
