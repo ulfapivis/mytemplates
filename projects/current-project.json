@@ -675,26 +675,67 @@
     },
     {
       "selectors": [
-        "#i0hf"
+        {
+          "name": "gjs-row",
+          "private": 1
+        }
       ],
       "style": {
-        "padding": "10px"
+        "display": "table",
+        "padding-top": "10px",
+        "padding-right": "10px",
+        "padding-bottom": "10px",
+        "padding-left": "10px",
+        "width": "100%"
       }
     },
     {
       "selectors": [
-        "#i3qk"
+        {
+          "name": "gjs-cell",
+          "private": 1
+        }
       ],
       "style": {
-        "height": "350px"
-      }
+        "width": "100%",
+        "display": "block"
+      },
+      "mediaText": "(max-width: 768px)",
+      "atRuleType": "media"
     },
     {
       "selectors": [
-        "#i5ddn"
+        "gjs-cell30"
       ],
       "style": {
-        "padding": "10px"
+        "width": "100%",
+        "display": "block"
+      },
+      "mediaText": "(max-width: 768px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": [
+        "gjs-cell70"
+      ],
+      "style": {
+        "width": "100%",
+        "display": "block"
+      },
+      "mediaText": "(max-width: 768px)",
+      "atRuleType": "media"
+    },
+    {
+      "selectors": [
+        {
+          "name": "gjs-cell",
+          "private": 1
+        }
+      ],
+      "style": {
+        "width": "8%",
+        "display": "table-cell",
+        "height": "75px"
       }
     }
   ],
@@ -702,23 +743,12 @@
     {
       "frames": [
         {
-          "component": "<div id=\"i0hf\">Insert your text here</div><iframe frameborder=\"0\" id=\"i3qk\" src=\"https://maps.google.com/maps?&amp;z=1&amp;t=q&amp;output=embed\"></iframe>",
-          "id": "AYfC94y3LyY3fc5n"
+          "component": "<div class=\"gjs-row\" id=\"iqb1\"><div class=\"gjs-cell\" id=\"ix9r\"></div></div>",
+          "id": "We5gmENRl9qOqILi"
         }
       ],
       "type": "main",
-      "id": "SsmNJNTGKnXGMMUx"
-    },
-    {
-      "name": "Page 2",
-      "frames": [
-        {
-          "component": "<div id=\"i5ddn\">Insert your text here</div>",
-          "id": "GSzOgLQwQ4VH7b79"
-        }
-      ],
-      "components": "<div style=\"text-align:center;padding:50px;\"><h1>Page 2</h1><p style=\"font-size:18px;\">This is your new page content.</p></div>",
-      "id": "U6ceC7tp3lm2jpmBt"
+      "id": "U77z5fpLZMK2F6TF"
     }
   ],
   "symbols": []
