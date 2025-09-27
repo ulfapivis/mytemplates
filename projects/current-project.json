@@ -737,13 +737,21 @@
         "display": "table-cell",
         "height": "75px"
       }
+    },
+    {
+      "selectors": [
+        "#irzo"
+      ],
+      "style": {
+        "height": "350px"
+      }
     }
   ],
   "pages": [
     {
       "frames": [
         {
-          "component": "<div class=\"gjs-row\" id=\"iqb1\"><div class=\"gjs-cell\" id=\"ix9r\"></div></div>",
+          "component": "<div id=\"iqb1\" class=\"gjs-row\"><div id=\"ix9r\" class=\"gjs-cell\"></div></div><iframe frameborder=\"0\" id=\"irzo\" src=\"https://maps.google.com/maps?&amp;z=1&amp;t=q&amp;output=embed\"></iframe>",
           "id": "We5gmENRl9qOqILi"
         }
       ],
